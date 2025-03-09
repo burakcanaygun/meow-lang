@@ -1,0 +1,62 @@
+# Basic variable declarations
+meow x = 5
+meow y = 10
+
+# Print statements
+purr "Value of x:"
+purr x
+purr "Value of y:"
+purr y
+
+# Basic arithmetic with cat operators
+purr "Sum of x and y:"
+purr x @ y              # Addition with paw pats
+
+purr "Difference of x and y:"
+purr x % y             # Subtraction with scratches
+
+purr "Product of x and y:"
+purr x ~ y             # Multiplication with happy purrs
+
+purr "Division of x and y:"
+purr x ^ y             # Division by sharing food
+
+# Cat-themed comparisons
+grr x TAIL_UP y {      # if x > y
+    purr "x is greater than y, tail proudly up!"
+} grrr {
+    purr "y is greater or equal, tail down..."
+}
+
+# Testing all comparison operators
+grr x PSPSPS y {       # if x == y
+    purr "x and y are equal, pspsps!"
+}
+
+grr x HISSS y {        # if x != y
+    purr "x and y are different, hisss!"
+}
+
+grr x TAIL_UP_UP 3 {   # if x >= 3
+    purr "x is greater or equal to 3, very proud tail!"
+}
+
+grr x TAIL_DOWN 7 {    # if x < 7
+    purr "x is less than 7, sad tail..."
+}
+
+# Function definition with new operators
+prrr add(a, b) {
+    mew a @ b          # Return sum using PAW_PAW
+}
+
+# Function call
+purr "Testing function:"
+purr add(x, y)
+
+# While loop with cat operators
+meow i = 5
+mrrr i TAIL_UP 0 {     # while i > 0
+    purr i
+    meow i = i % 1     # Countdown using SCRATCH
+} 
