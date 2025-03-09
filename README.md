@@ -23,8 +23,8 @@ A playful, esoteric programming language with cat-themed syntax! Written in Pyth
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/burakcanaygun/meow_lang.git
-cd meow_lang
+git clone https://github.com/burakcanaygun/meow-lang.git
+cd meow-lang
 ```
 
 ### Step 2: Create a Virtual Environment
@@ -90,7 +90,6 @@ When something goes wrong, your code will communicate with you in authentic cat 
 - "MRRROW HISS MEOW!"
 - "HISSS MEOW MEOW!"
 - "PURRRR HISS MEOW!"
-... and other mysterious feline messages. Each error has its own unique cat sound combination!
 
 ### Examples
 
